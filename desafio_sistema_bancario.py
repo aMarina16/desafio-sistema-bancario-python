@@ -52,7 +52,6 @@ while True:
             print("Falha na operação! O valor informado é inválido.")
 
     elif opcao == "e":
-        # menu_extrato = "Extrato"
         print("Extrato".center(37, "-"))
         print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f'\nSaldo: R$ {saldo:.2f}')
